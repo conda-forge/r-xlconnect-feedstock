@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/XLConnect_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/XLConnect/XLConnect_{{ version }}.tar.gz
-  sha256: 927aa34a3c81c12bf156e55edca9e2f5186c31435cce23feda4b906d049d6e39
+  sha256: a1ee0f68509b8e96963be0db013114bfd4a419f243162346636f7f114939c28a
 
 build:
   merge_build_host: true  # [win]
