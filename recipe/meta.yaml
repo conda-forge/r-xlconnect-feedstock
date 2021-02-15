@@ -25,12 +25,11 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-xlconnectjars ==0.2_15
     - r-rjava
   run:
     - r-base
-    - r-xlconnectjars ==0.2_15
     - r-rjava
+
 
 test:
   commands:
@@ -39,10 +38,11 @@ test:
 
 about:
   home: http://www.mirai-solutions.com https://github.com/miraisolutions/xlconnect
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Provides comprehensive functionality to read, write and format Excel data.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
