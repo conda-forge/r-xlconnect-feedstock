@@ -1,11 +1,11 @@
-About r-xlconnect
-=================
+About r-xlconnect-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xlconnect-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.mirai-solutions.com https://github.com/miraisolutions/xlconnect
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xlconnect-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides comprehensive functionality to read, write and format Excel data.
 
