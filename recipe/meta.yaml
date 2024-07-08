@@ -1,6 +1,5 @@
 {% set version = "1.0.10" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-xlconnect
@@ -13,8 +12,7 @@ source:
   sha256: e3c267cb1e6a6fb3a9fb132e60649182ee7a28e4e9188c72786fb843aad6e2b4
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
