@@ -1,4 +1,4 @@
-{% set version = "1.0.10" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/XLConnect_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/XLConnect/XLConnect_{{ version }}.tar.gz
-  sha256: e3c267cb1e6a6fb3a9fb132e60649182ee7a28e4e9188c72786fb843aad6e2b4
+  sha256: 3747f1f8f8e785d291ac1c1078899c53d51dd053f1b495fda97ab598ebecc432
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
